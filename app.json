@@ -20,8 +20,7 @@
       "buildNumber": "1.0.0",
       "infoPlist": {
         "NSCameraUsageDescription": "This app needs access to your camera for video chat with strangers.",
-        "NSMicrophoneUsageDescription": "This app needs access to your microphone for video chat with strangers.",
-        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library."
+        "NSMicrophoneUsageDescription": "This app needs access to your microphone for video chat with strangers."
       }
     },
     "android": {
@@ -41,21 +40,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "usesCleartextTraffic": true
-          }
-        }
-      ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "your-project-id"
-      }
     }
   }
 }
